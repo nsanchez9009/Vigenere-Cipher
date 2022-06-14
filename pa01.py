@@ -1,5 +1,3 @@
-#input with command: python3 pa01.py <key filename>.txt <plaintext filename>.txt
-
 import sys
 import string
 
@@ -21,7 +19,6 @@ def printFormat(text):
         print(text[i:i + 80]);
     print("");
     
-
 key = initInput(readInput(1));
 plainText = initInput(readInput(2));
 alphabet = list(string.ascii_lowercase);
