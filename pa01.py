@@ -18,6 +18,11 @@ def printFormat(text):
     for i in range(0, int(len(text)), 80):
         print(text[i:i + 80]);
     print("");
+
+def fillString(key):
+    multiple = int(512/len(key) + 1);
+    res = key * multiple;
+    return res[:512];
     
 key = initInput(readInput(1));
 plainText = initInput(readInput(2));
@@ -26,13 +31,7 @@ alphabet = list(string.ascii_lowercase);
 for i in range(int(len(plainText)), 512):
     plainText += "x";
 
-i = 0;
-keyStream = key;
-while int(len(keyStream)) < 512:
-    if key[i] == None:
-        i = 0;
-    keyStream += key[i];
-    i += 1;
+keyStream = fillString(key);
 
 cipherText = "";
 for i in range(0, int(len(plainText))):
