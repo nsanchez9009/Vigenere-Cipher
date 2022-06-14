@@ -22,8 +22,6 @@ I think and think for months and years. Ninety-nine times, the conclusion is fal
 
 <h6>Output:</h6>
 ```
-
-
 Vigenere Key:
 
 ithinkandthinkformonthsandyearsninetyninetimestheconclusionisfalsethehundredthti
@@ -52,5 +50,4 @@ shcknneussxfcgoaeblwndiadtbghrmrzzdjaardpfdbiyqieazczabruwglxzflagnwucgjlnkwqvml
 ddzwwgawaicbfyikvflamvgmegzobnrbxrepzvuaezqnqytunnqflkfpjlobfjmloqxkqqexkhkltiba
 dbclohkltibadbfpifjfqbatebobxpfjxdfkxqflkbjyoxzbpqebbkqfobtloiapqfjrixqfkdmoldob
 ppdfsfkdyfoqeqlbslirqflkxiyboqbf
-
 ```
