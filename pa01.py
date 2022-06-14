@@ -41,7 +41,6 @@ print("\n\nVigenere Key:\n");
 printFormat(key);
 
 print("\n\nPlaintext:\n");
-#print(plainText);
 printFormat(plainText);
 
 print("\n\nCiphertext:\n");
